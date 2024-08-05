@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "IPTSE",
-    "slug": "IPTSE",
+    "slug": "iptse",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,19 +15,21 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2 ,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.exam.iptse"
+      "package": "com.defaulttechnology.iptse"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "77c012a5-f597-41fb-ad2b-834884cfbd1e"
+        "projectId": "7eb4def5-7965-4406-9f1a-f430e8ac08f6"
       }
-    }
+    },
+    "owner": "ashutosh_sharma"
   }
 }
